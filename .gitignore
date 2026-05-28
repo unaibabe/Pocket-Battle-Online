@@ -1,0 +1,25 @@
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --- Entorno Virtual (Vital ignorar esto) ---
+backend/.venv/
+venv/
+env/
+
+# --- Variables de Entorno (SECRETOS - NUNCA SUBIR) ---
+.env
+
+# --- IDEs (Configuraciones de PyCharm y VS Code) ---
+.idea/
+.vscode/
+
+# --- Base de Datos (Archivos locales si los hubiera) ---
+*.sqlite
+*.db
+
+# --- Logs y archivos temporales ---
+*.log
+.DS_Store
